@@ -1,7 +1,5 @@
 # Core-Algorithms
 
-# Core Algorithms
-
 ## Description
 
 _Provide a brief, high-level overview of what the final product (artifact) of this goal is. Include any relevant resources or dependencies here._
