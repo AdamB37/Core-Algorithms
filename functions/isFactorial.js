@@ -1,9 +1,9 @@
-export default function isFactorial(x) {
-  if(x == 0) {
+export default function isFactorial(number) {
+  if(number == 0) {
     return 1;
   }
-  if(x < 0 ) {
+  if(number < 0 ) {
     return undefined;
   } else
-    return x * isFactorial(x-1)
+    return number * isFactorial(number-1)
 }
