@@ -1,5 +1,5 @@
 export default function closestPair(points) {
-  const maxDistance = 9999999
+  const maxDistance = Infinty
 
   let result = {pair: [], distance: maxDistance}
 
@@ -16,7 +16,7 @@ export default function closestPair(points) {
       let y = Math.abs(y1-y2)
 
       let distance = Math.sqrt( Math.pow(x,2) + Math.pow(y,2) )
-      
+
       if( distance < result.distance ) {
         result.pair=[]
         result.pair.push(points[i])
